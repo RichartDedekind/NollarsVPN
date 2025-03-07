@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/RichartDedekind/NollarsVPN?style=social)](https://github.com/RichartDedekind/NollarsVPN/stargazers)
-[![Twitter Follow](https://img.shields.io/twitter/follow/NollarsVPN?style=social)](https://twitter.com/NollarsVPN)
+[![Twitter Follow](https://img.shields.io/twitter/follow/NollarsNetwork?style=social)](https://twitter.com/NollarsNetwork)
 
 ## 🔒 Secure, Private, Decentralized: The Future of VPN Technology
 
