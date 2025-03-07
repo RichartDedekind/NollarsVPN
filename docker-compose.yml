@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../docker/backend.Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - NODE_ENV=production
+      - ETH_PROVIDER_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
+      - IPFS_API_URL=http://ipfs:5001
+      - IPFS_GATEWAY_URL=http://localhost:8080
+    depends_on:
+      - ipfs
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    networks:
+      - nollarsvpn-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../docker/frontend.Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:3001/api
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - nollarsvpn-network
+
+  ipfs:
+    image: ipfs/kubo:latest
+    ports:
+      - "4001:4001"
+      - "5001:5001"
+      - "8080:8080"
+    volumes:
+      - ipfs_data:/data/ipfs
+    networks:
+      - nollarsvpn-network
+
+networks:
+  nollarsvpn-network:
+    driver: bridge
+
+volumes:
+  ipfs_data:
