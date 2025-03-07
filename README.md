@@ -226,15 +226,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact & Support
 
-- Website: [https://nollarsvpn.com](https://nollars.com)
-- Twitter: [@NollarsVPN](https://twitter.com/NollarsNetwork)
+- Website: [https://nollars.com](https://nollars.com)
+- Twitter: [@NollarsNetwork](https://twitter.com/NollarsNetwork)
 
 ## 💰 Support the Project
 
 If you find NollarsVPN valuable, please consider supporting our development efforts with a Bitcoin donation:
 
 ```
-BTC: bc1pxw5j059khxkrdclwepfctz4ap4gjggczvzv7fxley6ten0n653dsex3edp
+bc1pxw5j059khxkrdclwepfctz4ap4gjggczvzv7fxley6ten0n653dsex3edp
 ```
 
 Your donations help us maintain and improve NollarsVPN, keeping it free, open-source, and independent from corporate interests.
