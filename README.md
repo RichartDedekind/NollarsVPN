@@ -3,7 +3,7 @@
 ![NollarsVPN Logo](https://nollars.com/branding/main-logo.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/NollarsVPN?style=social)](https://github.com/yourusername/NollarsVPN/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/RichartDedekind/NollarsVPN?style=social)](https://github.com/RichartDedekind/NollarsVPN/stargazers)
 [![Twitter Follow](https://img.shields.io/twitter/follow/NollarsVPN?style=social)](https://twitter.com/NollarsVPN)
 
 ## 🔒 Secure, Private, Decentralized: The Future of VPN Technology
@@ -80,7 +80,7 @@ NollarsVPN consists of several key components working together to provide a seam
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/RichardRichartDedekind/NollarsVPN.git
+git clone https://github.com/RichartDedekind/NollarsVPN.git
 cd NollarsVPN
 ```
 
